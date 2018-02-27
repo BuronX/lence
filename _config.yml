@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+
+# Setup
+title:        LENCE
+tagline:      A not for profit software development organization
+baseurl:      ""
+paginate:     1
