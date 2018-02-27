@@ -1,3 +1,8 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
 # Lence
 
 ## Welcome to GitHub Pages
