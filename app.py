@@ -1,30 +1,30 @@
-from flask import Flask
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'homepage'
+    return render_template('home.html')
 
 
 @app.route('/about')
 def about():
-    return 'aboutpage'
+    return render_template('about.html')
 
 
 @app.route('/projects')
 def projects():
-    return 'projectpage'
+    return render_template('projects.html')
 
 
 @app.route('/careers')
 def careers():
-    return 'carrerspage'
+    return render_template('careers.html')
 
 
 @app.route('/contact')
 def contact():
-    return 'contactpage'
+    return render_template('contact.html')
 
 
 app.run(port=5000, debug=True)
