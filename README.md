@@ -2,7 +2,7 @@
 
 ## Corporate Website
 
-Visit [Lence](https://lence.herokuapp.com/)
+Lence corporation [website](https://lence.herokuapp.com/), building software solutions for small scale businesses.
 
 ### Webpages
 
@@ -14,3 +14,14 @@ Visit [Lence](https://lence.herokuapp.com/)
 * Careers
 * Contact
 ```
+
+### Team
+
+```markdown
+
+* Ankit
+* Shohan
+* Kamal
+* Nisarg
+```
+
