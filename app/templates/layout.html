@@ -12,28 +12,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body class="container">
-    <div>
-        <header>
-            <!-- <div class="row"> -->
-                <div class="col-centered">
+    <header>
+        <div class="navigation row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
                     <a href="{{ url_for('home') }}">Home</a>
                     <a href="{{ url_for('about') }}">About Us</a>
                     <a href="{{ url_for('projects') }}">Projects</a>
                     <a href="{{ url_for('careers') }}">Careers</a>
                     <a href="{{ url_for('contact') }}">Contact</a>
                 </div>
-            <!-- </div> -->
-        </header>
-        {% block body %}{% endblock %}
-        <footer>
-            <h3>All Companies</h3>
-            <ul>
-                <li><a href="https://mas3.herokuapp.com/index">MAS3</a></li>
-                <li><a href="https://aia.mesalmankhan.com">Australian Innovation Academy</a></li>
-                <li><a href="http://">LENCE</a></li>
-                <li><a href="http://">E-Portal</a></li>
-            </ul>
-        </footer>
-    </div>
+                <div class="col-md-3"></div>
+        </div>
+
+    </header>
+    {% block body %}{% endblock %}
+    <footer>
+        <h3>All Companies</h3>
+        <ul>
+            <li><a href="https://mas3.herokuapp.com/index">MAS3</a></li>
+            <li><a href="https://aia.mesalmankhan.com">Australian Innovation Academy</a></li>
+            <li><a href="http://">LENCE</a></li>
+            <li><a href="http://">E-Portal</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

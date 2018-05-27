@@ -4,11 +4,25 @@ html, body {
 }
 
 header {
-    background:rgb(228, 226, 226);
-    width: 900;
-    padding: 30px;
+    background:rgb(245, 244, 244);
+    padding: 20px;
 }
 
 h1{
     color: grey;
+    font-size: 20px;
+}
+
+img{
+    height: 400px;
+}
+
+p{
+    font-size: 17px;
+}
+
+
+.navigation a{
+    font-size: 18px;
+    margin-right:35px;
 }
