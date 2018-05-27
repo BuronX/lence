@@ -5,11 +5,37 @@
 {% endblock %}
 
 {% block body %}
-<h2 class="text-center">Job Listings</h2>
 
-<div class="text-center">
-    <button class="btn btn-default">Junior Engineer</button>
-    <button class="btn btn-primary">ICT Engineer</button>
-    <button class="btn btn-info">Accountant</button>
+<div class="text-center" style="margin-top: 50px;">
+    <button class="btn btn-default" onclick="engineer()">Junior Engineer</button>
+    <button class="btn btn-primary" onclick="ict()">ICT Engineer</button>
+    <button class="btn btn-info" onclick="accountant()">Accountant</button>
 </div>
+
+<div id="job-posting">
+    <h3 id="job-title">Junior Engineer</h3>
+    <h4 style="margin-top: 40px;">The position</h4>
+    <p id="job-introduction" class="lead">Due to continued growth within the business, we are seeking a Junior Engineer to join our Engineering team.
+            The successful applicant will be responsible for providing effective support to the Project Management team.</p>
+    <ul id="job-overview">
+        <li>Melbourne > CBD & Inner Suburbs</li>
+        <li>Full time opportunity</li>
+        <li>Leadership opportunity</li>
+        <li>Competitive salary package</li>
+        <li>Work with worldclass talent</li>
+        <li>A great team environment</li>
+    </ul>
+    <h4>Key responsibilities</h4>
+    <ul id="job-responsibilities">
+        <li>As a successful candidate you will have a recognised engineering degree (Bachelors or above)</li>
+        <li>Minimum two years of experience as full time Junior engineer</li>
+        <li>Proficiency in performing calculations and analysis</li>
+        <li>Excellent oral and written communication skills</li>
+        <li>Experience in working with Australian standards and relevant authorities</li>   
+    </ul>
+    <p class="lead">Apply today to take advantage of a great opportunity to work in a multifaceted organization
+        where you will have the platform to stand out and take upon an important role in running projects.
+    </p>
+</div>
+
 {% endblock %}
