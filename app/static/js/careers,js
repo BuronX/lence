@@ -5,20 +5,26 @@ function ict(){
     var jobResponsibilities = document.getElementById("job-responsibilities");
 
     jobTitle.innerHTML = "ICT Engineer <span class='badge badge-secondary'>New</span>";
-    jobIntro.innerHTML = "Blah blah blah placeholder";
+    jobIntro.innerHTML = "We are seeking a motivated, well-spoken and proactive individual with a genuine passion for IT. \
+    The position is based in Melbourne's Inner suburbs,  this role will see you provisioning new IT equipment, diagnosing and \
+    repairing faulty systems as well as providing phone and remote support.";
     jobOverview.innerHTML = "\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>";
+    <li>Full time opportunity</li>\
+    <li>Leadership opportunity</li>\
+    <li>Competitive salary package</li>\
+    <li>Work with worldclass talent</li>\
+    <li>A great team environment</li>\
+    <li>Continuos Improvement</li>\
+    <li>Trust and respect</li>\
+    <li>Precision and helping others</li>";
     jobResponsibilities.innerHTML = "\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>\
-    <li>Placeholder ... ...</li>";
-
+    <li>Excellent oral and written communication skills</li>\
+    <li>A person who does not give up on something until it is resolved</li>\
+    <li>Provide 1st and 2nd level technical and application support to customers via phone, email and remote support software.</li>\
+    <li>Logging and maintaining incidents and service requests within the Service Desk software and escalating service desk incidents and requests to the appropriate groups within IT Team</li>\
+    <li>Taking ownership of all incidents and requests to the resolution.</li>\
+    <li>Ensure users are kept up to date on their status throughout the complete process.\
+    <li>You must be capable of multi-tasking</li>";
 }
 
 function engineer(){
