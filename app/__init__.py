@@ -27,5 +27,9 @@ def careers():
 def contact():
     return render_template('contact.html', timestamp=time.time())
 
+@app.route('/apply')
+def apply():
+    return render_template('job-form.html', timestamp=time.time())
+
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
