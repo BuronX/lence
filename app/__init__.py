@@ -13,9 +13,9 @@ def about():
     return render_template('about.html', timestamp=time.time())
 
 
-@app.route('/projects')
-def projects():
-    return render_template('projects.html', timestamp=time.time())
+@app.route('/training')
+def training():
+    return render_template('training.html', timestamp=time.time())
 
 
 @app.route('/careers')
